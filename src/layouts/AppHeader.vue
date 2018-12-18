@@ -6,7 +6,7 @@
         <div class="nav-groep">
             <router-link to="/" exact> Home  </router-link>
             <router-link to="/producten"> Producten  </router-link>
-            <router-link to="/about"> Over ons  </router-link>
+            <router-link to="/over"> Over ons  </router-link>
             <router-link to="/contact"> Contacteren            </router-link>
         </div>
     </nav>

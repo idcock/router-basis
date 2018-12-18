@@ -1,6 +1,8 @@
- import Vue from 'vue'
+import Vue from 'vue'
 import Router from 'vue-router'
 import Home from './views/Home.vue'
+import Over from './views/Over.vue'
+import Contact from './views/Contact.vue'
 
 Vue.use(Router)
 
@@ -13,6 +15,16 @@ export default new Router({
       name: 'home',
       component: Home
     },
+    {
+      path: '/over',
+      name: 'over',
+      component: Over
+    },
+    {
+      path: '/contact',
+      name: 'contact',
+      component: Contact
+    }
     
   ]
 })
